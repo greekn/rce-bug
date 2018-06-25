@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GB2312"?>
+<rule>
+	<readme><!-- 项目自述 -->
+		<name>漏洞感知项目</name>
+		<Initiator>Greekn fplythoner</Initiator>
+		<email>ms016@qq.com 980348599@qq.com</email>
+		<content>主要帮助大家 记录一些重大漏洞 漏洞方面的细节</content>
+	</readme>
+	<details><!--漏洞收集信息 -->
+		<loopholename>AVTECH-IPCP-RCE</loopholename><!-- 漏洞名称-->
+		<loopholenumber>X</loopholenumber><!--漏洞编号 -->
+		<loopholetype>RCE</loopholetype><!--漏洞类型 -->
+		<middleware>X</middleware><!--中间件 -->
+		<defaultport>80</defaultport><!-- 默认开放端口-->
+		<loopholecomponent>X</loopholecomponent><!--漏洞组件 -->
+		<loopholefeatures>DVR/NVR/IPC</loopholefeatures><!-- 漏洞特征 -->
+		<pocurl>https://github.com/mcw0/PoC/blob/master/AVTECH-IPCP-RCE.py</pocurl><!--漏洞验证脚本网址 -->
+		<expurl>https://github.com/mcw0/PoC/blob/master/AVTECH-IPCP-RCE.py</expurl><!-- 漏洞利用脚本网址 -->
+		<loopholedemourl>X</loopholedemourl><!-- 漏洞复现网址 -->
+		<foakeyword>"AVTECH"</foakeyword><!--fofa资产搜索关键词 -->
+		<zoomeyekeyword>"AVTECH"</zoomeyekeyword><!--钟馗之眼搜索关键词 -->
+		<shodankeyword>"AVTECH"</shodankeyword><!-- shodan资产搜索关键词 -->
+		<patchurl>X</patchurl><!--补丁网址 -->
+		<loopholeopentime>2018/6/18/</loopholeopentime><!--漏洞创建时间 -->
+		<time>2018/6/20/</time><!-- 漏洞收集时间 -->
+		<!--后面需要添加什么请联系上面邮箱 -->
+	</details>
+	<trackingnote><!-- 漏洞追踪描述-->
+		<loopholetracking>高危</loopholetracking><!--漏洞追踪笔记-->
+		<loopholepocopen>公开</loopholepocopen><!--漏洞验证脚本是否公开 -->
+		<loopholedetails>公开</loopholedetails><!-- 漏洞细节是否公开-->
+		<collector>Greekn</collector><!--漏洞收集人 -->
+		<email>ms016@qq.com</email><!--漏洞收集人邮箱 --> 
+		<time>2018/6/20/</time><!-- 漏洞收集时间 -->
+		<!--后面需要添加什么请联系上面邮箱 -->
+	</trackingnote>
+</rule>
