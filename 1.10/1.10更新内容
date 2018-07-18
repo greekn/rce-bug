@@ -1,0 +1,48 @@
+1.通过公开的大数据平台统计该漏洞的外网资产.
+
+# 钟馗之眼互联网资产统计平台 https://www.zoomeye.org/ 
+
+# shodan互联网资产统计平台 https://www.shodan.io/
+ 
+# fofa互联网资产统计平台 https://fofa.so/
+
+获取统计数据来源 
+
+2.了解该漏洞设备或软件在什么网络环境. 
+
+#1.外网
+
+#2.内网
+
+#3.本地提权
+
+
+3.网络分析师.
+
+查找漏洞编号相关信息 
+
+#http://cve.mitre.org/  cve编号
+
+#http://www.cnvd.org.cn/ cnvd编号 
+
+POC&EXP寻找平台 
+
+#https://github.com/
+
+#https://cxsecurity.com/
+
+#https://www.exploit-db.com/
+
+
+社交平台
+
+#https://twitter.com/ 推特
+
+#https://www.facebook.com/ 脸书 
+
+1.10更新内容 
+
+#1.主要添加 公开的大数据统计资产数量 
+
+#2.软件漏洞或者网络设备漏洞的网络环境
+
