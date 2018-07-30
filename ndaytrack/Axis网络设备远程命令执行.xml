@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312"?>
+<rule>
+	<readme><!-- 项目自述 -->
+		<name>漏洞感知项目</name>
+		<Initiator>Greekn fplythoner</Initiator>
+		<emailone>ms016@qq.com 980348599@qq.com</emailone>
+		<content>主要帮助大家 记录一些重大漏洞 漏洞方面的细节</content>
+		<version>v1.10</version>
+	</readme>
+	<details><!--漏洞收集信息 -->
+		<loopholename>Axis网络设备远程命令执行</loopholename><!-- 漏洞名称-->
+		<loopholenumber>cve-2018-10660/cve-2018-10661/cve-2018-10662/</loopholenumber><!--漏洞编号 -->
+		<loopholetype>RCE</loopholetype><!--漏洞类型 -->
+		<middleware>X</middleware><!--中间件 -->
+		<defaultport>80</defaultport><!-- 默认开放端口-->
+		<loopholecomponent>X</loopholecomponent><!--漏洞组件 -->
+		<loopholefeatures>注入任意shell命令/绕过认证/root发送特制请求/</loopholefeatures><!-- 漏洞特征 -->
+		<softwareversion>https://www.axis.com/files/sales/ACV-128401_Affected_Product_List.pdf</softwareversion><!--受影响组件版本号-->
+		<pocurl>X</pocurl><!--漏洞验证脚本网址 -->
+		<expurl>https://github.com/greekn/rce-bug/blob/master/exp-poc/Axis-exp-metasploit.rb</expurl><!-- 漏洞利用脚本网址 -->
+		<loopholedemourl>https://blog.vdoo.com/2018/06/18/vdoo-discovers-significant-vulnerabilities-in-axis-cameras/</loopholedemourl><!-- 漏洞复现网址 -->
+		<foakeyword>Axis</foakeyword><!--fofa资产搜索关键词 -->
+		<zoomeyekeyword>Axis</zoomeyekeyword><!--钟馗之眼搜索关键词 -->
+		<shodankeyword>Axis</shodankeyword><!-- shodan资产搜索关键词 -->
+		<patchurl>https://www.axis.com/</patchurl><!--补丁网址 -->
+		<bigdataassets>X</bigdataassets><!--大数据资产统计new-->
+		<loopholeopentime>2018/5/2/</loopholeopentime><!--漏洞创建时间 -->
+		<timeone>2018/7/30/</timeone><!-- 漏洞收集时间 -->
+		<!--后面需要添加什么请联系上面邮箱 -->
+	</details>
+	<trackingnote><!-- 漏洞追踪描述-->
+		<loopholetracking>高危</loopholetracking><!--漏洞追踪笔记-->
+		<networkenvironment>内网/外网</networkenvironment><!--网络环境new-->
+		<attackvector>Http</attackvector><!--攻击向量-->
+		<loopholepocopen>公开</loopholepocopen><!--漏洞验证脚本是否公开 -->
+		<loopholedetails>公开</loopholedetails><!-- 漏洞细节是否公开-->
+		<collector>Greekn</collector><!--漏洞收集人 -->
+		<email>ms016@qq.com</email><!--漏洞收集人邮箱 --> 
+		<time>2018/7/30/</time><!-- 漏洞收集时间 -->
+		<!--后面需要添加什么请联系上面邮箱 -->	
+	</trackingnote>
+</rule>
