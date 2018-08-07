@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312"?>
+<rule>
+	<readme><!-- 项目自述 -->
+		<name>漏洞感知项目</name>
+		<Initiator>Greekn--fplythoner</Initiator>
+		<emailone>ms016@qq.com--980348599@qq.com</emailone>
+		<content>主要帮助大家-记录一些重大漏洞-漏洞方面的细节</content>
+		<version>v1.20</version>
+		<github>https://github.com/greekn/rce-bug</github>
+	</readme>
+	<details><!--漏洞收集信息 -->
+		<loopholename></loopholename><!-- 漏洞名称-->
+		<loopholenumber></loopholenumber><!--漏洞编号 -->
+		<loopholetype></loopholetype><!--漏洞类型 -->
+		<middleware></middleware><!--中间件 -->
+		<defaultport></defaultport><!-- 默认开放端口-->
+		<loopholecomponent></loopholecomponent><!--漏洞组件 -->
+		<loopholefeatures></loopholefeatures><!-- 漏洞特征 -->
+		<softwareversion></softwareversion><!--受影响组件版本号-->
+		<pocurl></pocurl><!--漏洞验证脚本网址 -->
+		<expurl></expurl><!-- 漏洞利用脚本网址 -->
+		<loopholedemourl></loopholedemourl><!-- 漏洞复现网址 -->
+		<foakeyword></foakeyword><!--fofa资产搜索关键词 -->
+		<zoomeyekeyword></zoomeyekeyword><!--钟馗之眼搜索关键词 -->
+		<shodankeyword></shodankeyword><!-- shodan资产搜索关键词 -->
+		<patchurl></patchurl><!--补丁网址 -->
+		<bigdataassets></bigdataassets><!--大数据资产统计new-->
+		<loopholeopentime></loopholeopentime><!--漏洞创建时间 -->
+		<timeone></timeone><!-- 漏洞收集时间 -->
+		<!--后面需要添加什么请联系上面邮箱 -->
+	</details>
+	<trackingnote><!-- 漏洞追踪描述-->
+		<loopholetracking></loopholetracking><!--漏洞追踪笔记-->
+		<networkenvironment></networkenvironment><!--网络环境new-->
+		<attackvector></attackvector><!--攻击向量-->
+		<loopholepocopen></loopholepocopen><!--漏洞验证脚本是否公开 -->
+		<loopholedetails></loopholedetails><!-- 漏洞细节是否公开-->
+		<cvss3.0></cvss3.0><!--漏洞评分-->
+		<collector></collector><!--漏洞收集人 -->
+		<email></email><!--漏洞收集人邮箱 --> 
+		<time></time><!-- 漏洞收集时间 -->
+		<!--后面需要添加什么请联系上面邮箱 -->	
+	</trackingnote>
+</rule>
