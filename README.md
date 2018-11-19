@@ -2,7 +2,7 @@
 
 更新版本2.0
 
-项目地址（https://github.com/greekn/rce-bug2.0）
+项目地址（https://github.com/greekn/rce-bug2.0 ）
 
 漏洞感知项目 主要帮助大家 记录一些重大漏洞 漏洞方面的细节
 
